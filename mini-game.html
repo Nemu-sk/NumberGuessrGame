@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>数字当てゲーム</title>
+  <link rel="stylesheet" href="mini-game.css">
+</head>
+<body>
+  
+  <div class="game">
+    <h1>数字当てゲーム</h1>
+    <p>1~100の数字を当てよう!</p>
+    <input type="number" id="getGuess"> <!--答え入力欄-->
+    <button id="guessButton">予想する</button> <!--答え提出ボタン-->
+    <p id="message">数字を入力してください</p>
+    <button id="resetButton">もう一度遊ぶ</button> <!--リセットボタン-->
+    <h2>回答履歴</h2>
+    <ul id="historyList"></ul>
+  </div>
+  <script src="mini-game.js"></script>
+</body>
+</html>
